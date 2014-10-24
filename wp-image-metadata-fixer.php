@@ -18,6 +18,7 @@
  * 
  * @author Henning Stein, www.atomtigerzoo.com
  * @version 0.2.0
+ * @license MIT https://github.com/atomtigerzoo/wordpress-attachment-metadata-fixer/blob/master/LICENSE
  */
 
 
@@ -27,7 +28,7 @@
 
 
 /**
- * Uncomment to run fixer
+ * Start the script
  */
 $imgfix = new FixImageSizes();
 $imgfix->repair();
